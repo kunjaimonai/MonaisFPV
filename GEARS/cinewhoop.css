@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+*{
+    font-family: 'Clash Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav {
+    padding-right: 40px;
+}
+
+.nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    margin-left: 50px;
+}
+
+span{
+    font-size: 96px;
+}
+
+.first{
+    background:url(../Assets/whoop.png);
+    background-size: auto;
+    height: 1342px;
+}
+
+.first h1{
+    font-size: 96px;
+    color: white;
+}
+.second{
+    background:url(../Assets/ptek.png);
+    background-size: auto;
+    height: 1403px;
+    background-repeat: no-repeat;
+}
+
+.second h1{
+    font-size: 96px;
+    color: black;
+}
+.third{
+    background:url(../Assets/cw.png);
+    background-size: auto;
+    height: 1083px;
+    
+}
+
+.third h1{
+    font-size: 96px;
+    background: -webkit-linear-gradient(270deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,1) 100%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: right;
+    position: relative;
+    padding-top: 450px;
+}
