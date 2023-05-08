@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+*{
+    font-family: 'Clash Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.nav {
+    padding-right: 40px;
+}
+
+.nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+}
+.taurus {
+    background: url(../Assets/taurus.webp);
+    background-size: 1920px ;
+    height: 987px;
+    object-fit: cover; 
+    background-repeat: no-repeat;
+}
+.taurus h1{
+    position: absolute;
+    top: 75%;
+    left:10%;
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+}
+.taurus a{
+    position: absolute;
+    top: 85%;
+    left:10%;
+    color: black;
+    background-color: #00ff00;
+    border: 20px solid #00ff00;
+    border-radius: 36.5px;
+    
+}
+.inch {
+    background: url(../Assets/cinewhoop.png) left, url(../Assets/sector.png) right;
+    background-size: 1027px ;
+    height: 716px;
+    background-repeat: no-repeat;
+    object-fit: cover; 
+}
+.inch h1{
+    position: relative;
+    padding-top: 508px;
+    padding-left:750px;
+    padding-bottom: 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+}
+.inch a{
+    position: relative;
+    margin-left:750px;
+    color: white;    
+    background-color: #3E03E9;
+    border: 20px solid  #3E03E9;
+    border-radius: 36.5px;
+}
+
