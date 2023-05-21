@@ -60,7 +60,8 @@ circle a{
 
 
   @media screen and (max-width: 1000px)
-    {links{
+    {
+        .links{
 display: flex;
         flex-direction:row;
     }
