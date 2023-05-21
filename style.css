@@ -61,6 +61,5 @@ circle a{
 
 @media screen (max-width:1000px;){
     .circle{
-    display:flex;
-    flex-direction:column;
+display: inline;
     }
