@@ -62,5 +62,5 @@ circle a{
 @media screen (max-width:1000px;){
     .circle{
     display:flex;
-        flex-direction:row;
+    flex-direction:column;
     }
