@@ -57,3 +57,10 @@ circle a{
     top: 40%;
     text-decoration: none;
 }
+
+
+@media screen (max-width:1000px;){
+    .links{
+    display:flex;
+        flex-direction:row;
+    }
