@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/clash-display');
+* {
+    font-family: 'Clash Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;background-color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    
+}
+
+.nav li {
+    
+    display: inline-block;
+    list-style-type: none;
+    padding-right: 10px;
+
+}
+
+.nav a {
+    text-decoration: none;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links img {
+    width:auto; height: 300px; border-radius: 50%; 
+}
+
+body{
+    background-image: url(Assets/home_bg.jpeg);
+    background-attachment: fixed;
+    background-size:cover;
+    background-position: center;
+
+}
+
+circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align:center;
+    line-height: 100px;
+    margin-right: 50px;
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: 3.125rem;
+    font-weight: 500;
+}
+
+circle a{
+    color: #fff;
+    position: relative;
+    top: 40%;
+    text-decoration: none;
+}
+
+
+  @media screen and (max-width: 1000px)
+    {
+        .links{
+        display: flex;
+        flex-direction:column;
+    }
+    }
